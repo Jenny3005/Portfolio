@@ -1,0 +1,177 @@
+body {
+    background-color: rgba(0, 0, 0, 0.938);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*background:-webkit-linear-gradient(top left,black ,green);
+    background:-moz-linear-gradient(top left,black,green);
+    background: -o-linear-gradient(top left,black,green);
+    background:linear-gradient(to right,black ,green);
+    */
+}
+.profile-img {
+    width: 260px;
+    height: 260px;
+    margin: 50px;
+    border-radius: 50%;
+    border: 2px solid #4a6741;
+    box-shadow: 0 0px 8px 5px #04d10e;
+}
+.profile {
+    float: right;
+        margin-right: 100px;
+        margin-top: 70px;   
+}
+nav {
+    background-color: black;
+    position: fixed;
+    justify-content: space-between;
+    display: flex;  
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 60px;
+    
+}
+
+.title {
+    color: green;
+    padding-left: 35px;
+
+}
+
+.full {
+    padding-top: 70px;
+    font-size: 50px;
+    color: #05ec05;
+}
+
+nav ul {
+    list-style: none;
+    padding-top: 10px;
+    
+}
+nav li {
+    display: inline;
+    padding: 20px;
+
+}
+
+li:hover {
+    background-color: #63a517;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    font-size: 18px;
+}
+
+.service2 {
+    text-align: left;
+    padding-left: 500px;
+    font-size: 50px;
+}
+
+.projects {
+    text-align: center;
+    font-size: 50px;
+}
+
+.skills {
+    text-align: center;
+    font-size: 50px;
+}
+
+span {
+    color: #05ec05;
+}
+
+.service {
+    background-color: #111;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 255, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service:hover {
+    transform: translateY(-8px); 
+    box-shadow: 0 16px 30px rgba(0, 255, 0, 0.4);
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 70px;
+}
+
+p i {
+    font-size: 40px;
+}
+
+.project {
+    background-color: #111;
+    border :1px solid green;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0, 255, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+}
+
+
+.project:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 30px rgba(0, 255, 0, 0.4);
+}
+
+.projects-container {
+    display: flex;
+    padding: 70px;
+    gap: 20px;
+    justify-content: center;
+}
+
+p a {
+    color: #05ec05;
+    text-decoration: none;
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+button {
+    width: 105px;
+    height: 45px;
+    margin-right: 8px;
+}
+
+button:last-child {
+  margin-right: 0;
+}
+button i {
+    font-size: 19px;
+}
+
+button a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
