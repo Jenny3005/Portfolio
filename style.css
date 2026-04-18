@@ -175,3 +175,14 @@ img {
     height: auto;
     border-radius: 10px;
 }
+
+.contact {
+    background-color: #111;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 255, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 70px;
+}
